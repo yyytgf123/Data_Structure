@@ -12,9 +12,9 @@ typedef struct {
 
 // 초기화 함수
 void initArrayList(ArrayList* list) {
-	list->data = (int*)malloc(INITIAL_CAPACITY * sizeof(int)); // 초기 크기 할당
+	list->capacity = INITIAL_CAPACITY;
+	list->data = (int*)malloc(list->capacity * sizeof(int)); // 초기 크기 할당
 	list->size = 0; // 초기 크기는 0
-	list->capacity = INITIAL_CAPACITY; // 초기 용량 설정
 }
 
 // 크기 조정 함수 (배열 크기를 두 배로 증가)
@@ -78,6 +78,9 @@ int main() {
 	add(&list, 30);
 	add(&list, 40);
 	add(&list, 50);
+	
+	int currentSize = size(&list);
+	printf("Current size : %d\n", currentSize);
 
 	printf("ArrayList 크기 : %d\n", size(&list));
 	printf("인덱스 2의 요소 : %d\n", get(&list, 2));
