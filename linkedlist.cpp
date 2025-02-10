@@ -41,4 +41,48 @@ int main()
 
 	removeNode(linkedList, 1);
 	showNode(linkedList);
+
+	pos = findPos(linkedList, 30);
+	printf("the location of node with data '30' : %d\n", pos);
+
+	makeEmpty(linkedList);
+	showNode(linkedList);
+	return 0;
+}
+
+int addNode(LinkedList* pList, int pos, int data)
+{
+	int i = 0;
+	Node* pNewNode = NULL, *pTmpNode = NULL;
+	
+	if (pList == NULL)
+	{
+		printf("addNode() error1 \n");
+		return FALSE;
+	}
+	if (pos < 0 || pos > pList->curCount)
+	{
+		printf("addNode() error2: 추가 범위 초과 \n");
+	}
+
+	pNewNode = (Node*)malloc(sizeof(Node));
+	if (!pNewNode)
+	{
+		printf("addNode() error3 \n");
+		return FALSE;
+	}
+
+	//추가될 위치 직전 노드로 이동
+	pTmpNode = &(pList->headNode);
+	for (i = 0; i < pos; i++)
+	{
+		pTmpNode = pTmpNode->nextNode;
+	}
+
+	//추가 노드의 nextNode = 직전 노드의 nextNode
+	//직전 노드의 nextNode = 추가 노드의 주소
+	pNewNode->nextNode = pTmpNode->nextNode;
+	pTmpNode->nextNode = pNewNode;
+	pList->curCount++;
+	return TRUE;
 }
