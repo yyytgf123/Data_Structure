@@ -1,0 +1,16 @@
+﻿  2022039114_이현호.c
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(32,33): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(50,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(53,2): warning C4098: 'Del_List': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(39,37): warning C4133: '초기화 중': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(62,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(65,2): warning C4098: 'Prt_List': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(57,8): warning C4133: '초기화 중': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(75,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(69,8): warning C4133: '초기화 중': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(88,3): warning C4098: 'Sum_List': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(93,7): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(102,2): warning C4098: 'Sum_List': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(99,8): warning C4133: '초기화 중': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+C:\Git_repo\Data_Structer\lecture\linkedlist\2022039114_이현호.c(120,2): warning C4098: 'Sum_List2': 'void' 함수에서 값을 반환하고 있습니다.
+  Project1.vcxproj -> C:\Git_repo\Data_Structer\lecture\linkedlist\x64\Debug\Project1.exe
