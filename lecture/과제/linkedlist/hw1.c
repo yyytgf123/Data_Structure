@@ -78,13 +78,13 @@ Node* Sch_Node(LinkedList* linkedlist, int num) {
 	return NULL;
 }
 
-//numÀ¸·Î À§Ä¡¸¦ ¹Ş¾Æ¿Í ´õÇÔ
+//numìœ¼ë¡œ ìœ„ì¹˜ë¥¼ ë°›ì•„ì™€ ë”í•¨
 void Sum_List(LinkedList* linkednode, int num) {
 	Node* per = (Node*)malloc(sizeof(Node)), *cur = (Node*)malloc(sizeof(Node));
 
-	//list¼öº¸´Ù Å« °æ¿ì ¿¹¿Ü Ã³¸®
+	//listìˆ˜ë³´ë‹¤ í° ê²½ìš° ì˜ˆì™¸ ì²˜ë¦¬
 	if (num > linkednode->curCount -1) {
-		printf("¹üÀ§ ÃÊ°ú\n");
+		printf("ë²”ìœ„ ì´ˆê³¼\n");
 		return 0;
 	}
 
@@ -102,7 +102,7 @@ void Sum_List(LinkedList* linkednode, int num) {
 	return(printf("Sum_List1 : %d\n", list1->data + list2->data));
 }
 
-//Sch_Node¸¦ ÅëÇØ 2°³ÀÇ ³ëµå¸¦ ¹Ş¾Æ¿Í ´õÇÔ
+//Sch_Nodeë¥¼ í†µí•´ 2ê°œì˜ ë…¸ë“œë¥¼ ë°›ì•„ì™€ ë”í•¨
 void Sum_List2(Node* list1, Node* list2) {
 	int v1, v2;
 
