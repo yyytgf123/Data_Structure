@@ -17,7 +17,8 @@ void init_list(cir_list* list) {
 
 void insert_list(cir_list* list, int data) {
 	Node* newNode = (Node*)malloc(sizeof(Node));
-	
+
+	// 원형리스트는 처음 값 입력 시 next를 자기 자신을 가르키게함
 	newNode->data = data;
 	if (list->head == NULL)
 	{

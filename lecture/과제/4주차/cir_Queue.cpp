@@ -84,7 +84,7 @@ void printQQ(QueueType* Q) {
 	printf(" ]");
 }
 
-void main(void) {
+void ex48494(void) {
 	QueueType* cQ = createQueuee();  // 큐 생성
 	element data;
 	printf("\n ***** 원형 큐 연산 ***** \n");
