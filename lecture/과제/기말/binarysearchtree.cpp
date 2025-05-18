@@ -38,7 +38,7 @@ int hasEntry(int nodeIndex) {
 	return (nodeIndex < MAX_NODES && bst[nodeIndex] != NOT_EXIST);
 }
 
-int insertNode(int key) {
+void insertNode(int key) {
 	int curNodeIndex = 0; // rootNode의 인덱스
 
 	while (hasEntry(curNodeIndex)) {
@@ -52,19 +52,76 @@ int insertNode(int key) {
 			curNodeIndex = rightChild(curNodeIndex);
 		}
 	}
+
 	bst[curNodeIndex] = key;
 }
 
-int deleteNode(int key) {
+void deleteNodeByIndex(int nodeIndex) {
+	int leftChildIndex = leftChild(nodeIndex);
+	int rightChildIndex = rightChild(nodeIndex);
 
+	if (!hasEntry(leftChildIndex) && !hasEntry(rightChildIndex))
+	{
+		bst[nodeIndex] = NOT_EXIST;
+	}
+	else if (hasEntry(leftChildIndex) && !hasEntry(rightChildIndex))
+	{
+		bst[nodeIndex] = bst[leftChildIndex];
+		deleteNodeByIndex(leftChildIndex);
+	}
+	else if (!hasEntry(leftChildIndex) && hasEntry(rightChildIndex))
+	{
+		bst[nodeIndex] = bst[rightChildIndex];
+		deleteNodeByIndex(rightChildIndex);
+	}
+	else
+	{
+		int successorIndex = rightChildIndex;
+		while (hasEntry(leftChild(successorIndex)))
+		{
+			successorIndex = leftChild(successorIndex);
+		}
+		bst[nodeIndex] = bst[successorIndex];
+		deleteNodeByIndex(successorIndex);
+	}
 }
 
-int printInorder() {
+// 인덱스로 삭제
+// key로 찾은 뒤 재귀함수로 자식 노드로 가져옴
+void deleteNode(int key) {
+	int curNodeIndex = 0;
 
+	while (hasEntry(curNodeIndex)) {
+		if (key < bst[curNodeIndex])
+		{
+			curNodeIndex = leftChild(curNodeIndex);
+		}
+		else if (key > bst[curNodeIndex])
+		{
+			curNodeIndex = rightChild(curNodeIndex);
+		}
+		else if (key == bst[curNodeIndex]) break;
+	}
+	deleteNodeByIndex(curNodeIndex);
+}
+
+void inorder(int nodeIndex) {
+	if (!hasEntry(nodeIndex)) return;
+
+	inorder(leftChild(nodeIndex));
+	printf("%d@%d ", bst[nodeIndex], nodeIndex);
+	inorder(rightChild(nodeIndex));
+}
+
+void printInorder() {
+	inorder(0);
+	printf("\n\n");
 }
 
 int main()
 {
+	initBST();
+
 	insertNode(5);
 	insertNode(2);
 	insertNode(3);
