@@ -8,7 +8,8 @@ typedef struct treeNode {
 	struct treeNode* right;
 } treeNode;
 
-treeNode* makeRootNode(char data, treeNode* leftNode, treeNode* rightNode) {
+treeNode* makeRootNode(char data, treeNode* leftNode, treeNode* rightNode)
+{
 	treeNode* root = (treeNode*)malloc(sizeof(treeNode));
 	root->data = data;
 	root->left = leftNode;
@@ -19,11 +20,8 @@ treeNode* makeRootNode(char data, treeNode* leftNode, treeNode* rightNode) {
 void preorder(treeNode* root) {
 	if (root)
 	{
-		// 루트 먼저 출력
 		printf("%c", root->data);
-		// 왼쪽 노드로 이동, 그러면 왼쪽 노드가 루트가 되어 출력
 		preorder(root->left);
-		// 다음 오른쪽 노드로 이동하여, 오른쪽 노드가 루트가 되어 출력
 		preorder(root->right);
 	}
 }
@@ -46,7 +44,7 @@ void postorder(treeNode* root) {
 	}
 }
 
-void ex001() {
+void ex555() {
 	treeNode* n7 = makeRootNode('D', NULL, NULL);
 	treeNode* n6 = makeRootNode('C', NULL, NULL);
 	treeNode* n5 = makeRootNode('B', NULL, NULL);
@@ -55,9 +53,9 @@ void ex001() {
 	treeNode* n2 = makeRootNode('*', n4, n5);
 	treeNode* n1 = makeRootNode('-', n2, n3);
 
-	printf("\n preoder : ");
+	printf("\n preorder : ");
 	preorder(n1);
-	
+
 	printf("\n inorder : ");
 	inorder(n1);
 
