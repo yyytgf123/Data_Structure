@@ -128,9 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binarysearchtree.cpp" />
+    <ClCompile Include="bubble_sort.cpp" />
+    <ClCompile Include="dfs.cpp" />
     <ClCompile Include="graph.cpp" />
     <ClCompile Include="graph_list.cpp" />
+    <ClCompile Include="insertion_sort.cpp" />
     <ClCompile Include="order.cpp" />
+    <ClCompile Include="selection_sort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

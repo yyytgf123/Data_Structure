@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:graph_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\insertion_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:insertion_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\binarysearchtree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:binarysearchtree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\bubble_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:bubble_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\selection_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:selection_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:graph_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\binarysearchtree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D728395-FB55-437A-B5A7-A7C257E8BDF7}|Project.vcxproj|solutionrelative:binarysearchtree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,32 +51,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "graph_list.cpp",
-              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp",
-              "RelativeDocumentMoniker": "graph_list.cpp",
-              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp*",
-              "RelativeToolTip": "graph_list.cpp*",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwFUAAAAMAAAAAAAAAA==",
+              "Title": "insertion_sort.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\insertion_sort.cpp",
+              "RelativeDocumentMoniker": "insertion_sort.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\insertion_sort.cpp",
+              "RelativeToolTip": "insertion_sort.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-08T14:25:48.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "graph.cpp",
-              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph.cpp",
-              "RelativeDocumentMoniker": "graph.cpp",
-              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph.cpp",
-              "RelativeToolTip": "graph.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-08T10:19:06.98Z",
+              "WhenOpened": "2025-06-09T14:48:54.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "bubble_sort.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\bubble_sort.cpp",
+              "RelativeDocumentMoniker": "bubble_sort.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\bubble_sort.cpp",
+              "RelativeToolTip": "bubble_sort.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T14:30:56.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "selection_sort.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\selection_sort.cpp",
+              "RelativeDocumentMoniker": "selection_sort.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\selection_sort.cpp",
+              "RelativeToolTip": "selection_sort.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:29:28.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dfs.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\dfs.cpp",
+              "RelativeDocumentMoniker": "dfs.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\dfs.cpp",
+              "RelativeToolTip": "dfs.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T09:57:46.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "binarysearchtree.cpp",
               "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\binarysearchtree.cpp",
               "RelativeDocumentMoniker": "binarysearchtree.cpp",
@@ -82,6 +124,32 @@
               "ViewState": "AgIAACIAAAAAAAAAAAAkwDAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-08T07:56:20.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "graph_list.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp",
+              "RelativeDocumentMoniker": "graph_list.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph_list.cpp",
+              "RelativeToolTip": "graph_list.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwFkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-08T14:25:48.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "graph.cpp",
+              "DocumentMoniker": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph.cpp",
+              "RelativeDocumentMoniker": "graph.cpp",
+              "ToolTip": "C:\\Git_repo\\Data_Structer\\lecture\\\uACFC\uC81C\\\uAE30\uB9D0\\Project\\graph.cpp",
+              "RelativeToolTip": "graph.cpp",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwCEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-08T10:19:06.98Z",
               "EditorCaption": ""
             }
           ]

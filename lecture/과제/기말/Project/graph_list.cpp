@@ -87,7 +87,7 @@ void print_adjList(graphType* g) {
 	}
 }
 
-int main() {
+void ex004() {
 	int i;
 	graphType* G1;
 	G1 = (graphType*)malloc(sizeof(graphType));
